@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T08:05:27.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yPESl9tZ3XaW9b2tcc_I" version="21.6.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-08-07T09:08:54.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="hzZBnr4bZPig36abjBgq" version="21.6.5" type="device">
   <diagram name="第 1 页" id="blxSyfBKqjCWabXQWPOi">
     <mxGraphModel dx="1296" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dUrIm4O4jotg1TRx-QQ4-19" value="PipelineJobs &lt;br&gt;具有优先级的数据结构" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dUrIm4O4jotg1TRx-QQ4-19" value="Morsel + Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="280" y="210" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dUrIm4O4jotg1TRx-QQ4-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="dUrIm4O4jotg1TRx-QQ4-2">
