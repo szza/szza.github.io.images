@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2023-08-21T06:30:13.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="IuAwoa7cjHlXNqun4h2p" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="QL9LsgWYaGNlmTFIbNUL">
+    <mxGraphModel dx="1037" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4O18VoY4GjDFYuIs1672-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" target="4O18VoY4GjDFYuIs1672-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470.0000000000002" y="284.54999999999995" as="sourcePoint" />
+            <mxPoint x="520" y="284.55" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="285" />
+              <mxPoint x="520" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-3" value="lane: operator1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-4" value="&lt;span style&gt;lane: operator1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-5" value="&lt;span style&gt;lane: operator1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-6" value="ScanOperator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="284.6100000000001" as="sourcePoint" />
+            <mxPoint x="330" y="284.6100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-9" value="lane: operatorN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-10" value="&lt;span style&gt;lane: operatorN&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-11" value="&lt;span style&gt;lane: operatorN&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="730" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-12" value="MultiLaneOperator-N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="740" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="334.74" as="sourcePoint" />
+            <mxPoint x="930" y="334.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="530" y="260" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-15" value="lane: operator2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-16" value="&lt;span style&gt;lane: operator2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-17" value="&lt;span style&gt;lane: operator2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470.0000000000002" y="334.72" as="sourcePoint" />
+            <mxPoint x="530" y="334.7956983240224" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="335.17" />
+              <mxPoint x="520" y="335.17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470.0000000000002" y="384.76" as="sourcePoint" />
+            <mxPoint x="530" y="384.83569832402236" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="385.21000000000004" />
+              <mxPoint x="520" y="385.21000000000004" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="334.73" as="sourcePoint" />
+            <mxPoint x="720" y="334.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-21" value="MultiLaneOperator-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="1030" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-23" value="LaneArbiter::in_passthrough_mode == false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="384.6100000000001" as="sourcePoint" />
+            <mxPoint x="720" y="384.6100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="284.6099999999999" as="sourcePoint" />
+            <mxPoint x="720" y="284.6099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="930" y="260" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-27" value="per_lane_buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="940" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-28" value="per_lane_buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="940" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-29" value="per_lane_buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="940" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-30" value="CacheOperator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="950" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="284.6099999999999" as="sourcePoint" />
+            <mxPoint x="930" y="284.6099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="384.6100000000001" as="sourcePoint" />
+            <mxPoint x="930" y="384.6100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-34" value="Morsel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-35" value="Morsel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-36" value="Morsel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="334.6100000000001" as="sourcePoint" />
+            <mxPoint x="330" y="334.6100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="384.6100000000001" as="sourcePoint" />
+            <mxPoint x="330" y="384.6100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O18VoY4GjDFYuIs1672-39" value="MultiLaneOperator-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
