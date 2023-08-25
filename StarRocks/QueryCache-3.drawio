@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T16:00:56.445Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="24vhatFptrrRVuWjN5N4" version="21.6.9" type="device">
+  <diagram name="第 1 页" id="iVHIqy3xFBTeVDs4MWmt">
+    <mxGraphModel dx="1004" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="130" y="196" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-2" value="lane: operator1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="148" y="206" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2TozwBVBGRhWxuBW5-M3-3" target="2TozwBVBGRhWxuBW5-M3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-3" value="passthrough_lane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="148" y="256" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-4" value="&lt;span style&gt;lane: operator1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="148" y="306" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-5" value="MultiLaneOperator-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="148" y="166" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="511" y="196" width="167" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-9" value="lane: operatorN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="528" y="206" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2TozwBVBGRhWxuBW5-M3-10" target="2TozwBVBGRhWxuBW5-M3-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="718" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-10" value="passthrough_chunk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="528" y="256" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-11" value="&lt;span style&gt;lane: operatorN&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="528" y="306" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-12" value="MultiLaneOperator-N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="535" y="166" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="320" y="196" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-16" value="lane: operator2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="336" y="206" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2TozwBVBGRhWxuBW5-M3-17" target="2TozwBVBGRhWxuBW5-M3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-17" value="passthrough_lane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="336" y="256" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-18" value="&lt;span style&gt;lane: operator2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="336" y="306" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-19" value="can_passthrough = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="528" y="366" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-22" value="MultiLaneOperator-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="336" y="166" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-23" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="9" y="146" width="810" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-24" value="&lt;b&gt;&lt;i&gt;LaneArbiter::in_passthrough_mode == true&lt;/i&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2TozwBVBGRhWxuBW5-M3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108" y="271" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-25" value="ScanOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="17" y="233" width="100" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="2TozwBVBGRhWxuBW5-M3-27" value="CacheOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="233" width="100" height="76" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

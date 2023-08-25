@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T15:44:55.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="8_ugeAjhxiQeNiPpCLMI" version="21.6.9" type="device">
+  <diagram name="第 1 页" id="QoK0bZb6-c-vDvbeit5H">
+    <mxGraphModel dx="1363" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-12" target="Fcj1tMIxn0xdaQeRLs6_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-12" target="Fcj1tMIxn0xdaQeRLs6_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-12" target="Fcj1tMIxn0xdaQeRLs6_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-4" value="class LogicalSplitScanMorsel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="400" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-5" value="+ _short_key_ranges:  std::vector&lt;vectorized::ShortKeyRangeOptionPtr&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-4">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-8" value="class PhysicalSplitScanMorsel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="22" y="530" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-9" value="+ _rowid_range_option:  vectorized::RowidRangeOptionPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-8">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-12" value="class ScanMorsel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="420" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-13" value="+ _scan_range: std::unique_ptr&lt;TScanRange&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="26" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-14" value="+  _tablet_id: int64_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="52" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-15" value="+ _version: int64_t" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="78" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" diagramCategory="uml" diagramName="Divider" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="104" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-17" value="+ std::tuple&lt;int64_t, int64_t&gt; get_lane_owner_and_version() constoverride; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="112" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-27" value="+ void init_tablet_reader_params(vectorized::TabletReaderParams* params) override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-12">
+          <mxGeometry y="138" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-18" value="class Morsel" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="265" y="92" width="250" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-19" value="+ _plan_node_id: int32_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-18">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-20" value="+  _from_version: int64_t" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-18">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-21" value="+ _rowsets: std::vector&lt;RowsetSharedPtr&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fcj1tMIxn0xdaQeRLs6_-18">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-24" target="Fcj1tMIxn0xdaQeRLs6_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-24" target="Fcj1tMIxn0xdaQeRLs6_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-24" value="query-cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=dashed;fillColor=#fff2cc;strokeColor=none;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="85" y="160" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fcj1tMIxn0xdaQeRLs6_-26" target="Fcj1tMIxn0xdaQeRLs6_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fcj1tMIxn0xdaQeRLs6_-26" value="update cache" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=dashed;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="75" y="351" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
