@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-08-26T03:55:33.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="mTCmC_-8GmVHrWd5qRfg" version="21.6.9" type="device">
+  <diagram name="第 1 页" id="xu16rDpHQCa5k9foXbe1">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gqrvI-pyGGVxYD2ITfB-5" target="0gqrvI-pyGGVxYD2ITfB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-2" value="class LaneArbiter" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="345" y="110" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-3" value="+ _passthrough_mode: std::atomic&lt;bool&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=#ffffff;fontStyle=1" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-4" value="+ _num_lanes: const size_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-5" value="+ _assignments: std::vector&lt;LaneAssignment&gt;" style="text;strokeColor=none;fillColor=#FFE6CC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="78" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-6" value="+ _processed:  std::unordered_set&lt;LaneOwnerType&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="104" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" diagramCategory="uml" diagramName="Divider" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="130" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-8" value="+ AcquireResult try_acquire_lane(LaneOwnerType lane_owner);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="138" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-9" value="+ void release_lane(LaneOwnerType lane_owner);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-2">
+          <mxGeometry y="164" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-10" value="struct LaneAssignment" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="165" y="320" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-11" value="+ lane_owner: int64_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-10">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0gqrvI-pyGGVxYD2ITfB-12" value="+ assign_seqno: int64_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0gqrvI-pyGGVxYD2ITfB-10">
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
