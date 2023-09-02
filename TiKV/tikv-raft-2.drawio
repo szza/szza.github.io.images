@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T03:46:42.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="WYSYPOpHc3aQdjLHsS1C" version="21.6.9" type="device">
+  <diagram name="第 1 页" id="Q2raxRDVjR0g1fo472po">
+    <mxGraphModel dx="1004" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-2" value="&lt;b&gt;Transaction&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66B2FF;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-3" value="&lt;b&gt;MVCC&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66B2FF;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-4" value="&lt;b&gt;Raft&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66B2FF;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-5" value="" style="shape=mxgraph.flowchart.database;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66B2FF;strokeWidth=1;" diagramCategory="Flowchart" diagramName="Database" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-6" value="" style="shape=mxgraph.flowchart.database;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66B2FF;strokeWidth=1;" diagramCategory="Flowchart" diagramName="Database" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-7" value="raft-rocksdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="525" y="420" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-8" value="kv-rocksdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="608" y="420" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-9" value="" style="endArrow=classic;html=1;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="195" as="sourcePoint" />
+            <mxPoint x="490" y="194.68000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-10" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="320" y="185" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-11" value=" commited " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="410" y="174" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-12" value="&lt;ul&gt;&lt;li&gt;Propose&lt;/li&gt;&lt;li&gt;Append&lt;/li&gt;&lt;li&gt;Replicate&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;line-height: 0%;&quot;&gt;Append（follower）&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Commit&lt;/li&gt;&lt;li&gt;Apply&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kcQh48rsK6TZY_Noi3E9-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="680" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

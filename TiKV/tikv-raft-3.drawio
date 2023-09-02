@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T03:59:57.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="HvsGcJqv3qhN-f5wBMcU" version="21.6.9" type="device">
+  <diagram name="第 1 页" id="jdrFYuFArDrZKdlBkN7G">
+    <mxGraphModel dx="1363" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fP3lUKEakhUH1413T6yC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fP3lUKEakhUH1413T6yC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="388" y="325" as="sourcePoint" />
+            <mxPoint x="299" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="326" />
+              <mxPoint x="340" y="326" />
+              <mxPoint x="340" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.001;exitY=0.537;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="fP3lUKEakhUH1413T6yC-1" target="fP3lUKEakhUH1413T6yC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="325" as="sourcePoint" />
+            <mxPoint x="310" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="393" y="341" />
+              <mxPoint x="340" y="340" />
+              <mxPoint x="340" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;dashed=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="389" y="110" width="270" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-2" value="PollHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="409" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fP3lUKEakhUH1413T6yC-4" target="fP3lUKEakhUH1413T6yC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-4" value="&lt;b style&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;begin&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="459" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fP3lUKEakhUH1413T6yC-6" target="fP3lUKEakhUH1413T6yC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-6" value="&lt;b style&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;handle_control&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="459" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fP3lUKEakhUH1413T6yC-8" target="fP3lUKEakhUH1413T6yC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;handle_normal&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="459" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fP3lUKEakhUH1413T6yC-10" target="fP3lUKEakhUH1413T6yC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;light_end&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="459" y="375" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;end&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="459" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-12" value="RaftPoller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3FF66;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-13" value="ApplyPoller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3FF66;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fP3lUKEakhUH1413T6yC-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="590" height="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
