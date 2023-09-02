@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T08:03:42.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="fBSZko0r7y9K9Z8bcrYF" version="21.7.2" type="device">
+  <diagram name="第 1 页" id="Zzk87RHuJNiEOzFZ9lT-">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7otuTOASDAfkZZ-z_Pnh-13" target="7otuTOASDAfkZZ-z_Pnh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-13" value="KVStore::Begin -&amp;gt; &lt;b style&gt;&lt;font color=&quot;#007fff&quot;&gt;txn&lt;/font&gt;&lt;/b&gt;" style="html=1;" diagramCategory="uml" diagramName="Object" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-14" value="txn_driver.NewTiKVTxn(&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;txn&lt;/b&gt;&lt;/font&gt;)" style="html=1;" diagramCategory="uml" diagramName="Object" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.466;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="422.18000000000006" y="550.8299999999999" as="sourcePoint" />
+            <mxPoint x="418.8399999999999" y="584.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="296" y="370" width="249" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-17" value="tikvTxn" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFFCC;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="585" width="259.5" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-18" value="+ * tikv.KVTxn" style="text;strokeColor=none;fillColor=#FFE6CC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7otuTOASDAfkZZ-z_Pnh-17">
+          <mxGeometry y="26" width="259.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-19" value="+ idxNameCache: *map[int64]*model.TableInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7otuTOASDAfkZZ-z_Pnh-17">
+          <mxGeometry y="52" width="259.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-20" value="+ snapshotInterceptor: kv.SnapshotInterceptor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7otuTOASDAfkZZ-z_Pnh-17">
+          <mxGeometry y="78" width="259.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="254" y="330" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7otuTOASDAfkZZ-z_Pnh-22" value="tikvStroe::begin -&amp;gt; kv.Transaction" style="text;html=1;strokeColor=none;fillColor=#CCFFE6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" diagramCategory="general" diagramName="text" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
