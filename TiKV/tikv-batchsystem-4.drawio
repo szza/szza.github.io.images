@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T04:40:23.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="TNdYiqC8r6DCwwmzhpYZ" version="21.7.2" type="device">
+  <diagram name="第 1 页" id="LDBiqWFXWjHj8j84WUtM">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-1" value="BasicMailbox&lt;Owner: Fsm&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="410" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-2" value="+ sender: mpsc::LooseBoundedSender&lt;Owner::Message&gt;" style="text;strokeColor=none;fillColor=#FFCC99;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VVaU0hMUdz2aMEeDOHjB-1">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-3" value="+ state: Arc&lt;FsmState&lt;Owner&gt;&gt;," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VVaU0hMUdz2aMEeDOHjB-1">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VVaU0hMUdz2aMEeDOHjB-1">
+          <mxGeometry y="78" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-5" value="+ try_send()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VVaU0hMUdz2aMEeDOHjB-1">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VVaU0hMUdz2aMEeDOHjB-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="780" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

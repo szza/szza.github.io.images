@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T04:40:48.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="EJHGv7B38jPm3Y_6YFz5" version="21.7.2" type="device">
+  <diagram name="第 1 页" id="Wk2NlyT-6Dv0LmFxZt2Y">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-1" value="N: PeerFsm&amp;lt;EK, ER&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-2" value="C: StoreFsm&amp;lt;EK&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="254" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-3" value="NormalScheduler&amp;lt;N, C&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-4" value="NormalScheduler&amp;lt;N, C&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A_hHR8qrsSI4ORMYWemO-6" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Router&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
