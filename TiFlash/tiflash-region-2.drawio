@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T07:29:55.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="alNC2d42CHW-ox68G8ZI" version="21.7.2" type="device">
+  <diagram name="第 1 页" id="FqSrZO1AyPQxl9VwedoB">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-1" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" diagramCategory="uml" diagramName="Aggregation1" edge="1" parent="1" source="qfcjsdmFI2uBrQJaRwne-8">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="480" y="209" as="sourcePoint" />
+            <mxPoint x="350" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-2" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fontColor=#FFB366;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="uml" diagramName="Aggregation1" edge="1" parent="1" source="qfcjsdmFI2uBrQJaRwne-5" target="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="130" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-3" value="RegionTable::Table" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FFB366;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="216" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-4" value="+ table_id: Table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-3">
+          <mxGeometry y="26" width="216" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-5" value="+ regions: std::vector&lt;InternalRegion&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-3">
+          <mxGeometry y="52" width="216" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-6" value="RegionTable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="310" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-7" value="+ regions: std::unordered_map&lt;RegionID, TableID&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-6">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-8" value="+ tables: std::unordered_map&lt;TableID, Table&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-6">
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-9" value="+ dirty_regions:  std::unordered_set&lt;RegionID&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-6">
+          <mxGeometry y="78" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-10" value="RegionTable::InternalRegion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF9933;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="110" y="435" width="190" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-11" value="+ region_id: RegionID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-12" value="+ range_in_table:  KVRange" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-13" value="+ pause_flush: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-14" value="+ cache_bytes: Int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-15" value="+ last_flush_time: Timepoint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qfcjsdmFI2uBrQJaRwne-10">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qfcjsdmFI2uBrQJaRwne-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="730" height="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

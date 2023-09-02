@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" modified="2023-09-02T07:30:54.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="jxOWcp5w9NwI1cMCcl8h" version="21.7.2" type="device">
+  <diagram name="第 1 页" id="IY5njssM-U8pexHW8cL3">
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-1" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.469;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="uml" diagramName="Aggregation1" edge="1" parent="1" source="C-vQ0kwRu22j9PqAxXun-30" target="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="603" y="220" as="sourcePoint" />
+            <mxPoint x="763" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-2" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-1">
+          <mxGeometry x="0.0186" y="19" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-3" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="uml" diagramName="Aggregation1" edge="1" parent="1" source="C-vQ0kwRu22j9PqAxXun-11" target="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="186" y="453" as="sourcePoint" />
+            <mxPoint x="346" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-4" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="uml" diagramName="Aggregation1" edge="1" parent="1" source="C-vQ0kwRu22j9PqAxXun-18" target="C-vQ0kwRu22j9PqAxXun-24">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="66" y="690" as="sourcePoint" />
+            <mxPoint x="226" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-5" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-4">
+          <mxGeometry x="-0.9184" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-6" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-4">
+          <mxGeometry x="-0.9272" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-7" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-4">
+          <mxGeometry x="-0.926" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-8" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-4">
+          <mxGeometry x="-0.7352" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-9" value="RegionManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="426" y="270" width="387" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-10" value="+ regions: std::unordered_map&lt;RegionID, std::shared_ptr&lt;Region&gt;&gt;;" style="text;strokeColor=none;fillColor=#FFCC99;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="26" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-11" value="+ region_range_index: RegionsRangeIndex" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="52" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-12" value="+ region_task_ctrl: RegionTaskCtrl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="78" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="104" width="387" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-14" value="+ RegionReadLock genRegionReadLock() const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="112" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-15" value="+ RegionWriteLock genRegionWriteLock()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="138" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-16" value="+ RegionTaskLock genRegionTaskLock(RegionID region_id) const;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-9">
+          <mxGeometry y="164" width="387" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-17" value="RegionsRangeIndex" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="206" y="490" width="360" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-18" value="+ root: std: map&lt;TiKVRangeKey, IndexNode&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-19" value="+ min_it: RootMap::const_iterator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-20" value="+ max_it: RootMap::const_iterator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="78" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="104" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-22" value="+ void add(const RegionPtr &amp; new_region)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="112" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-23" value="+ void remove(const RegionRange &amp; range, RegionID region_id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-17">
+          <mxGeometry y="138" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-24" value="IndexNode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class2" vertex="1" parent="1">
+          <mxGeometry x="6" y="720" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-25" value="+ region_map: std::unordered_map&lt;RegionID, RegionPtr&gt;" style="text;strokeColor=none;fillColor=#FFB366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-24">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-26" value="SharedMutexLockWrap" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" diagramCategory="uml" diagramName="Class" vertex="1" parent="1">
+          <mxGeometry x="441" y="90" width="380" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-27" value="+ shared_mutex: std::shared_mutex" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#ffffff;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-26">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-26">
+          <mxGeometry y="52" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-29" value="+ std::shared_lock&lt;std::shared_mutex&gt; genReadLockGuard() const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-26">
+          <mxGeometry y="60" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vQ0kwRu22j9PqAxXun-30" value="+ std::unique_lock&lt;std::shared_mutex&gt; genWriteLockGuard() const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="C-vQ0kwRu22j9PqAxXun-26">
+          <mxGeometry y="86" width="380" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
