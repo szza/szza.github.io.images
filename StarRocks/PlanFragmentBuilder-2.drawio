@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:21:41.693Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="Ygm4klPY9I6JIT6ePzkt" version="22.0.4" type="device">
+  <diagram name="第 1 页" id="lTBzzGBByBzik5TMOaw3">
+    <mxGraphModel dx="2440" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yv2kj9EalduW5sdNBVnG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.439;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-7" target="yv2kj9EalduW5sdNBVnG-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="172.79999999999973" y="119.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-7" value="PhysicalOlapScanOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="215.16000000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-8" value="PhysicalOlapScanOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="215.16000000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-8" target="yv2kj9EalduW5sdNBVnG-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="120.16000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-12" value="PhysicalJoinOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.439;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-21" target="yv2kj9EalduW5sdNBVnG-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167.79999999999973" y="479.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-21" value="PhysicalOlapScanOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="560.0000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-22" value="PhysicalDistributionOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560.0000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-22" target="yv2kj9EalduW5sdNBVnG-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="480.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-24" value="PhysicalJoinOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.439;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-26" target="yv2kj9EalduW5sdNBVnG-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602.7999999999997" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-26" value="PhysicalDistributionOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560.0000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-27" value="PhysicalOlapScanOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560.0000000000001" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-27" target="yv2kj9EalduW5sdNBVnG-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="480.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-29" value="PhysicalJoinOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.439;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-31" target="yv2kj9EalduW5sdNBVnG-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602.7999999999997" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-31" value="PhysicalDistributionOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="215.16000000000008" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-32" value="PhysicalDistributionOp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="215.16000000000008" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yv2kj9EalduW5sdNBVnG-32" target="yv2kj9EalduW5sdNBVnG-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="140.16000000000008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2kj9EalduW5sdNBVnG-34" value="PhysicalJoinOperator" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
